@@ -44,9 +44,11 @@ $ sails generate permissions-api
 
 ##### e.g in config/local.js (file is in .gitignore)
 ```
-sails.config.permissions.adminUsername = 'admin'
-sails.config.permissions.adminEmail = 'admin@example.com'
-sails.config.permissions.adminPassword = 'admin1234'
+permissions: {
+  adminUsername = 'admin',
+  adminEmail = 'admin@example.com',
+  adminPassword = 'admin1234'
+  },
 ```
 #### 4. update configs
 
